@@ -35,8 +35,12 @@ public class DemoGitFlow {
         return a - b;
     }
 
-    public static int Division(int a, int b){
-        return a / b;
+    public static double Division(int a, int b){
+        if(b == 0){
+            System.out.println("Error!!! no puedes dividir por cero.");
+            return 0;
+        }else{
+            return a/b;
+        }
     }
-    
 }
