@@ -18,11 +18,18 @@ public class DemoGitFlow {
 
         var resultadoSuma = Suma(10,8);
         System.out.println("El resultado de la suma es:" + resultadoSuma);
+
+        var resultadoResta = Resta(10,8);
+        System.out.println("El resultado de la resta es:" + resultadoResta);
     }
 
 
     public static int Suma(int a, int b){
         return a + b;
+    }
+
+    public static int Resta(int a, int b){
+        return a - b;
     }
     
 }
