@@ -21,6 +21,9 @@ public class DemoGitFlow {
 
         var resultadoResta = Resta(10,8);
         System.out.println("El resultado de la resta es:" + resultadoResta);
+
+        var resultadoDivision = Division(10,8);
+        System.out.println("El resultado de la division es:" + resultadoDivision);
     }
 
 
@@ -30,6 +33,10 @@ public class DemoGitFlow {
 
     public static int Resta(int a, int b){
         return a - b;
+    }
+
+    public static int Division(int a, int b){
+        return a / b;
     }
     
 }
