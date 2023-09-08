@@ -15,6 +15,14 @@ public class DemoGitFlow {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+
+        var resultadoSuma = Suma(10,8);
+        System.out.println("El resultado de la suma es:" + resultadoSuma);
+    }
+
+
+    public static int Suma(int a, int b){
+        return a + b;
     }
     
 }
